@@ -6,13 +6,13 @@ pkgdesc="A demo configuration for the openHAB Home Automation Bus"
 url="http://openhab.org/"
 arch=('any')
 license=('GPL3')
-depends=('openhab-runtime=1.2.0'
-         'openhab-binding-http=1.2.0'
-         'openhab-binding-ntp=1.2.0'
-         'openhab-io-freetts=1.2.0'
-         'openhab-persistence-logging=1.2.0'
-         'openhab-persistence-exec=1.2.0'
-         'openhab-persistence-rrd4j=1.2.0')
+depends=('openhab-runtime>=1.2.0'
+         'openhab-binding-http>=1.2.0'
+         'openhab-binding-ntp>=1.2.0'
+         'openhab-io-freetts>=1.2.0'
+         'openhab-persistence-logging>=1.2.0'
+         'openhab-persistence-exec>=1.2.0'
+         'openhab-persistence-rrd4j>=1.2.0')
 
 source=("https://openhab.googlecode.com/files/${pkgname}-${pkgver}.zip")
 md5sums=('6cf19b9ddfc75bdac8b2ffb42fa2b6c8')
